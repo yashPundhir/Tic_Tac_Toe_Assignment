@@ -1,0 +1,39 @@
+.tic-tac-toe {
+	text-align: center;
+}
+
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid #ccc;
+}
+
+.cell {
+	flex: 1 0 33.33%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 48px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.winner {
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.draw {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.current-player {
+	margin-top: 50px;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
